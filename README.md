@@ -9,12 +9,21 @@ Il y a des chances qu'on observe de belles choses ! :D
 ### Déroulement d'une partie
 
 - Au début de la partie un nombre de tour est décidé par l'utilisateur.
-- L'utilisateur écrit ensuite une phrase / paragraphe de la taille de son choix, et determine la langue du texte.
+- L'utilisateur écrit également une phrase / paragraphe, qui servira de point de départ.
 - Le tour est composé :
-  - D'un [text to speech](https://www.ibm.com/watson/services/text-to-speech/) dans une langue différente de la langue du texte.
-  - Puis d'un [speech to text](https://www.ibm.com/watson/services/speech-to-text/) dans la langue du texte
-- À chaque tour, le texte généré ainsi qu'une note comparative (sur l'échelle de votre choix, avec l'algorithme de votre choix) par rapport au texte précédent doit être sauvegardé sur un serveur distant (db, fichier plat, jpg, comme vous voulez :))
+  - D'un [text to speech](https://www.ibm.com/watson/services/text-to-speech/) dans une langue autre que le français.
+  - Puis d'un [speech to text](https://www.ibm.com/watson/services/speech-to-text/) en français.
+- À chaque tour, le texte généré, ainsi qu'une note comparative (sur l'échelle de votre choix, avec l'algorithme de votre choix) par rapport au texte précédent, et le fichier audio doivent être sauvegardés sur un serveur distant (db, fichier plat, jpg, comme vous voulez :))
 - En fin de partie, un récapitulatif des tours devra être affiché, ainsi que la note globale.
+
+### Exemple
+
+Simulons ensemble le premier tour :
+
+- Texte de départ : "Coucou toi comment ça va"
+- Ce texte est ensuite "parlé" par la voix `Allison (en-US)` grâce au [text to speech](https://www.ibm.com/watson/services/text-to-speech/). Un fichier audio est généré.
+- Le fichier audio est passé au [speech to text](https://www.ibm.com/watson/services/speech-to-text/) avec la voix française, ce qui donne "Quand aux contrôles et m chambas". 
+- La note générée pour ce tour est de 6.1/20.
 
 ## Consignes
 
