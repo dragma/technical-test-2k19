@@ -25,7 +25,7 @@ Simulons ensemble le premier tour :
 - Le fichier audio est passé au [speech to text](https://www.ibm.com/watson/services/speech-to-text/) avec la voix française, ce qui donne "Quand aux contrôles et m chambas". 
 - La note générée pour ce tour est de 6.1/20.
 
-[Lien vers le projet expo publier qui devrait marcher](https://expo.io/@dragma/app)
+[Lien vers le projet expo publié qui devrait marcher](https://expo.io/@dragma/app)
 
 ## Consignes
 
